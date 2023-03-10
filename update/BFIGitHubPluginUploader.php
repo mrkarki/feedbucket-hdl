@@ -86,7 +86,6 @@ class BFIGitHubPluginUpdater {
             $obj->package = $package;
             $transient->response[$this->slug.'/'.$this->slug.'.php'] = $obj;
         }
-        print_r($transient);
         return $transient;
     }
 
