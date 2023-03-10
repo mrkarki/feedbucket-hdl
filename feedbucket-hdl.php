@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://hbgdesignlab.se/
- * @since             1.0.0
+ * @since             1.0.1
  * @package           Feedbucket
  *
  * @wordpress-plugin
 * Plugin Name:        HDL Feedback Tool
  * Plugin URI:        https://hbgdesignlab.se/
  * Description:       This plugin for enable the feedback features with the HDL Team of developer and project managers.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Nabin Karki - Helsingborg Design LAB
  * Author URI:        https://github.com/mrkarki
  * License:           GPL-2.0+
@@ -35,11 +35,11 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
+ * Start at version 1.0.1 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
 
-define( 'FEEDBUCKET_VERSION', '1.0.0' );
+define( 'FEEDBUCKET_VERSION', '1.0.1' );
 define( '_file_path', __FILE__  );
 
 /**
@@ -76,7 +76,7 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-feedbucket.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since    1.0.1
  */
 function run_feedbucket() {
 
