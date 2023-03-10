@@ -133,7 +133,7 @@ class Feedbucket
 		require_once plugin_dir_path(dirname(__FILE__)) . 'update/BFIGitHubPluginUploader.php';
 		
 		if (is_admin()) {
-			new BFIGitHubPluginUpdater(_file_path, 'mrkarki', "feedbucket");
+			new BFIGitHubPluginUpdater(_file_path, 'mrkarki', "feedbucket-hdl");
 		}
 
 		$this->loader = new Feedbucket_Loader();
